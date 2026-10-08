@@ -1,0 +1,31 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "velfypix",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "Velfy PIX",
+    "tagline": "Receba pagamentos via PIX com QR Code e código copia e cola na fatura. Versão 0.1.6.",
+    "long": "Integre as cobranças PIX da Velfy ao WHMCS. O cliente pode pagar pelo aplicativo do banco, e o módulo verifica a transação pela API antes de registrar o pagamento da fatura.",
+    "features": [
+      "QR Code e PIX copia e cola na fatura do WHMCS;",
+      "Confirmação por webhook com consulta autenticada à API;",
+      "Proteção contra criação e baixa duplicadas;",
+      "Validade da cobrança PIX configurável;",
+      "CPF/CNPJ do cadastro ou de campo personalizado do cliente;",
+      "Cobranças em reais (BRL)."
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https://www.velfy.com.br/"
+  },
+  "authors": [
+    {
+      "name": "Integração Velfy PIX"
+    }
+  ]
+}

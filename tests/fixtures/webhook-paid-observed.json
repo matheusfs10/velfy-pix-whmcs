@@ -1,0 +1,84 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "user-agent": "Velfy-Webhooks/1.0",
+    "x-velfy-attempt": "1",
+    "x-velfy-delivery-id": "600102",
+    "x-velfy-event-type": "APPROVED",
+    "x-velfy-event-id": "evt_00000000-0000-4000-8000-000000000002_APPROVED"
+  },
+  "body": {
+    "id": 600102,
+    "type": "transaction",
+    "url": "https://receiver.example.test/",
+    "data": {
+      "id": 900002,
+      "ip": null,
+      "fee": {
+        "netAmount": 485,
+        "fixedAmount": 15,
+        "estimatedFee": 15,
+        "spreadPercentage": 0
+      },
+      "pix": {
+        "qrcode": "00020126...6304ABCD",
+        "end2end": ""
+      },
+      "items": [
+        {
+          "id": 800002,
+          "saleId": 900003,
+          "title": "Teste local PIX WHMCS",
+          "unitPrice": 500,
+          "quantity": 1,
+          "physical": false,
+          "productId": null,
+          "productName": null,
+          "productDesc": null,
+          "productPage": null,
+          "productImg": null,
+          "productBanner": null,
+          "productFile": null,
+          "productType": null,
+          "externalRef": null,
+          "createdAt": "2030-01-01T12:00:00.000Z"
+        }
+      ],
+      "amount": 500,
+      "paidAt": "2030-01-01T12:02:00.000Z",
+      "refundedAt": null,
+      "status": "paid",
+      "customer": {
+        "id": 700001,
+        "name": "Maria Silva",
+        "email": "maria@example.test",
+        "phone": null,
+        "address": null,
+        "document": {
+          "type": "cpf",
+          "number": "12345678909"
+        }
+      },
+      "delivery": {
+        "status": "waiting",
+        "createdAt": "2030-01-01T12:00:00.000Z",
+        "trackingCode": null
+      },
+      "metadata": "{\"origem\":\"whmcs\",\"invoiceId\":12345}",
+      "secureId": "00000000-0000-4000-8000-000000000002",
+      "companyId": 123,
+      "tenant": "velfy",
+      "traceable": false,
+      "paidAmount": 500,
+      "externalRef": "local-invoice-12345",
+      "postbackUrl": "https://receiver.example.test/",
+      "installments": 1,
+      "paymentMethod": "pix",
+      "refusedReason": null,
+      "splits": [],
+      "refunds": [],
+      "refundedAmount": 0,
+      "createdAt": "2030-01-01T12:00:00.000Z"
+    }
+  }
+}

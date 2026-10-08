@@ -1,0 +1,10 @@
+{
+  "id": "event-local-001",
+  "type": "transaction",
+  "data": {
+    "id": "tx-local-001",
+    "status": "paid",
+    "paidAmount": 10000,
+    "externalRef": "local-invoice-12345"
+  }
+}

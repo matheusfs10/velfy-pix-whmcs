@@ -1,0 +1,17 @@
+{
+  "name": "velfy/whmcs-pix",
+  "description": "Gateway PIX Velfy para WHMCS",
+  "type": "project",
+  "require": {
+    "php": ">=8.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-pdo": "*"
+  },
+  "scripts": {
+    "test": "php tests/run.php",
+    "lint": "php scripts/lint.php",
+    "package": "php scripts/package.php",
+    "preview": "php -S 127.0.0.1:8765 -t . dev/router.php"
+  }
+}

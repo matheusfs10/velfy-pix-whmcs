@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "status": 200,
+  "data": {
+    "id": 900002,
+    "amount": 500,
+    "paidAmount": 500,
+    "refundedAmount": 0,
+    "companyId": 123,
+    "installments": 1,
+    "paymentMethod": "pix",
+    "status": "paid",
+    "postbackUrl": "https://receiver.example.test/",
+    "metadata": "{\"origem\":\"whmcs\",\"invoiceId\":12345}",
+    "traceable": false,
+    "secureId": "00000000-0000-4000-8000-000000000002",
+    "secureUrl": null,
+    "createdAt": "2030-01-01T12:00:00.000Z",
+    "updatedAt": "2030-01-01T12:02:00.000Z",
+    "paidAt": "2030-01-01T12:02:00.000Z",
+    "ip": null,
+    "externalRef": "local-invoice-12345",
+    "authorizationCode": null,
+    "basePrice": null,
+    "interestRate": null,
+    "customer": {
+      "id": 700001,
+      "name": "Maria Silva",
+      "email": "maria@example.test",
+      "phone": null,
+      "address": null,
+      "document": {
+        "type": "cpf",
+        "number": "12345678909"
+      }
+    },
+    "fee": {
+      "fixedAmount": 0,
+      "spreadPercentage": 0,
+      "estimatedFee": 15,
+      "netAmount": 485
+    },
+    "payer": null,
+    "card": null,
+    "boleto": null,
+    "pix": {
+      "qrcode": "00020126...6304ABCD",
+      "expirationDate": "2030-01-02T12:00:00.000Z"
+    },
+    "shipping": null,
+    "refusedReason": null,
+    "items": [
+      {
+        "externalRef": null,
+        "title": "Teste local PIX WHMCS",
+        "unitPrice": 500,
+        "quantity": 1,
+        "tangible": false
+      }
+    ],
+    "splits": [],
+    "refunds": [],
+    "delivery": null
+  }
+}

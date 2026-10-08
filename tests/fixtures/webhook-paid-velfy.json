@@ -1,0 +1,66 @@
+{
+  "id": 600001,
+  "type": "transaction",
+  "url": "https://merchant.example.test/webhooks/velfy",
+  "data": {
+    "id": 900001,
+    "ip": null,
+    "fee": {
+      "netAmount": 9051,
+      "fixedAmount": 949,
+      "estimatedFee": 949,
+      "spreadPercentage": 0
+    },
+    "pix": {
+      "qrcode": "00020126...6304ABCD",
+      "end2end": ""
+    },
+    "items": [
+      {
+        "id": 800001,
+        "saleId": 900004,
+        "title": "Curso Online",
+        "unitPrice": 10000,
+        "quantity": 1,
+        "physical": false,
+        "externalRef": null,
+        "createdAt": "2030-01-01T12:00:00.000Z"
+      }
+    ],
+    "amount": 10000,
+    "paidAt": "2030-01-01T12:02:00.000Z",
+    "refundedAt": null,
+    "status": "paid",
+    "customer": {
+      "id": 700001,
+      "name": "Maria Silva",
+      "email": "maria@example.test",
+      "phone": "11999999999",
+      "address": null,
+      "document": {
+        "type": "cpf",
+        "number": "12345678909"
+      }
+    },
+    "delivery": {
+      "status": "waiting",
+      "createdAt": "2030-01-01T12:00:00.000Z",
+      "trackingCode": null
+    },
+    "metadata": "{\"origem\":\"site\"}",
+    "secureId": "00000000-0000-4000-8000-000000000001",
+    "companyId": 123,
+    "tenant": "velfy",
+    "traceable": false,
+    "paidAmount": 10000,
+    "externalRef": "pedido-12345",
+    "postbackUrl": "https://merchant.example.test/webhooks/velfy",
+    "installments": 1,
+    "paymentMethod": "pix",
+    "refusedReason": null,
+    "splits": [],
+    "refunds": [],
+    "refundedAmount": 0,
+    "createdAt": "2030-01-01T12:00:00.000Z"
+  }
+}

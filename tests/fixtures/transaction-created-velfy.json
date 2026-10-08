@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "message": "Transaction created",
+  "status": 201,
+  "data": {
+    "id": 900001,
+    "status": "pending",
+    "refusedReason": "",
+    "amount": 10000,
+    "companyId": 123,
+    "installments": 1,
+    "refusedAmount": 0,
+    "paidAmount": 0,
+    "refundedAmount": 0,
+    "paymentMethod": "pix",
+    "metadata": "{\"origem\":\"site\"}",
+    "secureId": "00000000-0000-4000-8000-000000000001",
+    "secureUrl": null,
+    "externalId": "pedido-12345",
+    "customer": {
+      "name": "Maria Silva",
+      "email": "maria@example.test",
+      "phone": "11999999999",
+      "externalRef": null,
+      "document": {
+        "number": "12345678909",
+        "type": "cpf"
+      }
+    },
+    "pix": {
+      "qrcode": "00020126...6304ABCD",
+      "expirationDate": "2030-01-02T12:00:00.000Z"
+    },
+    "traceable": false,
+    "fees": 949,
+    "createdAt": "2030-01-01T12:00:00.000Z"
+  }
+}

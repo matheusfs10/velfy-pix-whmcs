@@ -1,0 +1,8 @@
+QRCode.js by davidshimjs
+Source: https://github.com/davidshimjs/qrcodejs
+Pinned commit: 04f46c6a0708418cb7b96fc563eacae0fbf77674
+File: qrcode.min.js
+SHA256: c541ef06327885a8415bca8df6071e14189b4855336def4f36db54bde8484f36
+License: MIT, included in QRCODE-LICENSE.txt
+No CDN or external QR-code service is used at runtime.
+
